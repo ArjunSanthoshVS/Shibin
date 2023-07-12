@@ -1,0 +1,33 @@
+body {
+    background-color: #eef4fd !important;
+    background-image: url("https://omnibridge.gnosischain.com/static/media/up-triangle.ebc49cb7.svg");
+    background-size: auto;
+}
+
+.container {
+    background-color: #eef4fd;
+}
+.wallet{
+    width: 177px;
+    background-color: #2086fe;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.globe {
+    width: 177px;
+    background-color: #eef4fd;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.arrow{
+    color: #2086fe;
+}
+.img-1{
+    width: 27px;
+}
+.left.card{
+    border-radius: 10px 10px 10px 10px
+}

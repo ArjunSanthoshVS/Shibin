@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniBridge</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container vh-100">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <img class="me-3 pb-2" src="https://omnibridge.gnosischain.com/static/media/logo.9abef1d7.svg"
+                        alt="">
+                    <a class="navbar-brand" href="#"><b>OmniBridge</b></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <button class="wallet m-3 p-2">
+                    <i class="fa-solid fa-wallet"></i>
+                    <b>Connect Wallet</b></button>
+                <button class="globe me-3">
+                    <i class="fa-solid fa-globe"></i>
+                    <b>ETH <i class="fa-solid fa-arrows-left-right"></i> GC</b> <i
+                        class="fa-solid fa-caret-down"></i></button>
+            </div>
+        </nav>
+
+        <div class="card p-4 my-auto">
+            <div class="header">
+                <div class="row">
+                    <div class="col text-start">
+                        <h6>From</h6>
+                        <h3>ETH Mainnet</h3>
+                    </div>
+                    <div class="arrow col text-center my-auto">
+                        <i class="fa-solid fa-right-left"></i>
+                    </div>
+                    <div class="col text-end">
+                        <h6>To</h6>
+                        <h3>Gnosis Chain</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="middle d-flex justify-content-between">
+                <div class="left card">
+                    <img class="img-1"
+                        src="data:image/png;base64,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"
+                        alt="">
+                    <h6>Gnosis Token</h6>
+                </div>
+                <div class="middle-buttons text-center">
+                    <div class="unlock">
+                        <button>Unlocked</button>
+                    </div>
+                    <div class="transfer">
+                        <button>Unlocked</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="card">
+                        Gnosis Token on GC
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer">
+
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/e3ae8df40e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
